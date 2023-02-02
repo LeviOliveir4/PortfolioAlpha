@@ -1,0 +1,35 @@
+@use 'variables'
+
+
+
+*    
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack
+    box-sizing: border-box
+   
+
+body 
+    background: #000
+    animation: moveBanner 1s 0.5s forwards
+
+
+
+
+a, svg
+    transition: .4s   
+
+
+
+@keyframes moveBanner
+    0%
+        transform: translateY(10rem) rotateY(-30deg)
+
+    100%
+        transform: translateY(0) rotateY(0)
+        opacity: 1
+
+
+
+
+           

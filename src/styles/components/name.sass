@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap')
+    
+.line
+    border-right: 2px solid rgba(255,255 ,255 ,0.75 )
+    color: #4ab40d
+    text-shadow: 2px 0 10px #0f5827
+    font-family: 'Quantico', sans-serif
+    font-size: 3rem
+    margin-left: 3rem   
+    margin-top: 2rem
+    white-space: nowrap
+    overflow: hidden
+
+.typing-animation
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both
+
+@keyframes typing
+    from
+        width: 0       
+        
+    to
+        width: 35.6rem
+
+@keyframes blinkCursor
+    from
+        border-right-color: rgba(255,255 ,255 ,0.75 )
+
+    to
+        border-right-color: transparent
