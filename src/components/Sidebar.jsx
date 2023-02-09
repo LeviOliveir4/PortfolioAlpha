@@ -1,10 +1,9 @@
 import SocialNetworks from './SocialNetworks';
-import InformationContainer from './informationContainer';
+import InformationContainer from './InformationContainer';
 //------------------------------------------------------------//
 import Avatar from '../img/pcAndme.jpg'                      //
 import '../styles/components/sidebar.sass'                  //
 //---------------------------------------------------------//
-
 
 
 
