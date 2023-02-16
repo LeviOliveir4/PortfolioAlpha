@@ -1,5 +1,4 @@
 import {DiHtml5,DiCss3,DiJsBadge,DiNodejsSmall,DiSass,DiReact} from 'react-icons/di'
-
 import '../styles/components/technologies.sass'
 
 const technologies = [
@@ -25,7 +24,6 @@ const TechnologiesContainer = () => {
           </div>
           
           ))}
-
       </div>
           <img className='languages' src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeviOliveir4&layout=compact&langs_count=16&theme=chartreuse-dark&bg_color=111&hide_border=true&locale=pt-BR&title_color=219648&custom_title=Estatísticas&"/>
     </section>
