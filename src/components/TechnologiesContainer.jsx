@@ -1,4 +1,4 @@
-import {DiHtml5,DiCss3,DiJsBadge,DiNodejsSmall,DiSass,DiReact} from 'react-icons/di'
+import {DiHtml5,DiCss3,DiJsBadge,DiNodejsSmall,DiSass,DiReact, DiMysql} from 'react-icons/di'
 import '../styles/components/technologies.sass'
 
 const technologies = [
@@ -8,6 +8,8 @@ const technologies = [
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "sass", name: "Sass", icon: <DiSass /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "Mysql", name: "MySQL", icon: <DiMysql /> },
+
 ];
 
 const TechnologiesContainer = () => {
