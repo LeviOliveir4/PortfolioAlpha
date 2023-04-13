@@ -9,7 +9,7 @@ function App() {
      <div >
       <Name/>
       <section id="portfolio">
-      <Sidebar/>
+      <Sidebar/>      
       <MainContent/>
 
       </section>

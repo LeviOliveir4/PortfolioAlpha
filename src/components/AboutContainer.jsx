@@ -8,16 +8,9 @@ const AboutContainer = () => {
         sempre buscando mais conhecimentos, e formas diferentes para resolução
         de problemas. Atualmente estou com uma base sólida no Desenvolvimente
         web, e estou buscando mais conhecimento em BackEnd, para agregar na
-        minha carreira como desenvolvedor Full Stack.       
-        
-      </p>
-      <p>Treinamento front-end(Fábrica Software)<strong>✔</strong></p>
-      <strong>Mindset:Crescimento.</strong>
-      <br />
-      <p>
-        Soft Skills: Proatividade, Resiliência, Senso de Trabalho em Equipe,
-        Colaboração, Responsabilidade e Comunicação Assertiva.
-      </p>
+        minha carreira como desenvolvedor Full Stack.</p>
+      
+    
     </section>
   );
 };
