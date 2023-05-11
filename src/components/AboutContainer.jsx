@@ -6,7 +6,7 @@ const AboutContainer = () => {
         Universitário do Centro Universitário de João Pessoa- UNIPÊ, no curso
         Análise e Desenvolvimento de Sistemas. Apaixonado por Programação,
         sempre buscando mais conhecimentos, e formas diferentes para resolução
-        de problemas. Atualmente estou com uma base sólida no Desenvolvimente
+        de problemas. Atualmente estou com uma base sólida no <Desenvolvimento></Desenvolvimento>
         web, e estou buscando mais conhecimento em BackEnd, para agregar na
         minha carreira como desenvolvedor Full Stack.</p>
       
