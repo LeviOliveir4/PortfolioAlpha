@@ -1,5 +1,6 @@
 import SocialNetworks from './SocialNetworks';
 import InformationContainer from './InformationContainer';
+import curriculo from '../pdf/Curriculo2023.pdf';
 //------------------------------------------------------------//
 import Avatar from '../img/pcAndme.jpg'                      //
 import '../styles/components/sidebar.sass'                  //
@@ -13,7 +14,7 @@ const Sidebar = () => {
     <p className="title">Desenvolvedor</p>
     <SocialNetworks/>
     <InformationContainer/>
-    <a href="https://drive.google.com/file/d/1DzWaAbyGEHX_Zq0XuZSowH8l3dsSPWE2/view?usp=drive_link" className="btn" download="Currículo">
+    <a href={curriculo} className="btn" download>
       Download Currículo
     </a>
   </aside>;

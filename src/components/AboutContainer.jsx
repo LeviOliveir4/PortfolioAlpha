@@ -3,7 +3,7 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-      Universitário do Centro Universitário de João Pessoa - UNIPÊ, cursando Análise e Desenvolvimento de Sistemas. Sigo em busca de constante evolução como um bom desenvolvedor web, sempre buscando adquirir mais conhecimento e explorar diferentes formas de resolver problemas.
+      Universitário do Centro Universitário de João Pessoa - UNIPÊ, atualmente cursando Análise e Desenvolvimento de Sistemas. Meu objetivo é crescer como Desenvolvedor Web, buscando constantemente aprimorar meus conhecimentos e explorar diversas abordagens para solucionar desafios com eficiência.
       </p>
     </section>
   );
