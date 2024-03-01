@@ -8,7 +8,24 @@
     flex: 2 1 0 
     border-radius: variables.$container-border-radius
     padding: 3rem
-    box-shadow: 1px 0 10px variables.$green-code
+    box-shadow: 1px 0 10px variables.$h1-name
+
+    .menu-nav
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 1rem
+
+        a
+            text-decoration: none
+            color: variables.$text-color
+
+            &:hover
+                color: variables.$h1-name
+
+            &:focus
+                color: variables.$border-solid
+                text-shadow: 0 2px 7px variables.$border-solid               
 
     
     section

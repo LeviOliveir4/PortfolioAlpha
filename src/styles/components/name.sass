@@ -1,9 +1,11 @@
+@use '../variables'
+@use '../mixins'
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap')
     
 .line
     border-right: 2px solid rgba(255,255 ,255 ,0.75 )
-    color: #4ab40d
-    text-shadow: 2px 0 10px #0f5827
+    color: variables.$h1-name
+    text-shadow: 2px 0 10px variables.$h1-name
     font-family: 'Quantico', sans-serif
     font-size: 3rem
     margin-left: 3rem   
